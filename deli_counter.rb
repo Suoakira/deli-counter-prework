@@ -8,6 +8,6 @@ def line(katz_deli)
   else
     statement = []
     katz_deli.each_with_index do
-      
+      "The line is currently:
   end
 end
