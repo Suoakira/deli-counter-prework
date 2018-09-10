@@ -2,6 +2,3 @@
 
 
 
-def line(line, name)
-
-end
