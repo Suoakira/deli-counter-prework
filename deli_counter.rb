@@ -6,8 +6,10 @@ def line(katz_deli)
   if line.size == 0 
     puts "The line is currently empty."
   else
-    statement = ["The line is currently: "]
-    line.each_w
-    1. Logan 2. Avi 3. Spencer"
+    statement = ["The line is currently:"]
+    line.each_with_index do |name, index|
+      statement.push(" #{index + 1}. #{name}"
   end
+  statement
+
 end
