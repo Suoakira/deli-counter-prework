@@ -13,3 +13,5 @@ def line(katz_deli)
     puts statement.join("")
   end
 end
+
+def take_a_number(katz_deli, name)
