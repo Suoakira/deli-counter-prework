@@ -10,6 +10,6 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       statement.push(" #{index + 1}. #{name}")
     end
-    statement.join("")
+    puts "#{statement}"
   end
 end
